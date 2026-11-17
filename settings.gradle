@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         maven { url = uri("${rootDir}/libs") }
     }
 }
-rootProject.name = "MediaConverter"
+rootProject.name = "Selma"
 include ':app'
