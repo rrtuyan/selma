@@ -69,16 +69,6 @@ Requires JDK 17, Android SDK platform 34, build-tools 34.0.0.
 `minSdk 24`, `targetSdk 34`. Native libraries shipped for `arm64-v8a` and
 `armeabi-v7a` only (matching the prebuilt AAR).
 
-## Project layout
-
-```
-app/src/main/java/com/example/mediaconverter/
-├── CodecPresets.kt   # codec enums, bitrate/sample-rate/channel option lists
-├── FFmpegEngine.kt   # FFmpeg argument builders + cancellable async execution
-└── MainActivity.kt   # UI (tabs, dropdowns, progress, share/save)
-libs/                 # vendored com.arthenica:ffmpeg-kit-next:9.0.2 AAR
-```
-
 ## License note
 
 The bundled `ffmpeg-kit-next` AAR is a **GPL v3.0** (`full-gpl`) build.
