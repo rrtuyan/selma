@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Material 3 Expressive: large rounded corners; dynamic color applied in code -->
+    <style name="Theme.Selma" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryContainer</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Selma.Large</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Selma.Medium</item>
+    </style>
+
+    <style name="ShapeAppearance.Selma.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Selma.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+</resources>
